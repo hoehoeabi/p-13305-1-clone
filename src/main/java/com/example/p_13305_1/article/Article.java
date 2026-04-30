@@ -1,9 +1,8 @@
-package com.example.p_13305_1.entity;
+package com.example.p_13305_1.article;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -24,4 +23,9 @@ public class Article {
     private String content;
 
     private LocalDateTime createdDate;
+
+    public void updateArticle(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
