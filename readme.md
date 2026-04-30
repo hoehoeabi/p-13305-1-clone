@@ -1,3 +1,4 @@
+
 ## 1차 요구사항 구현
 - [x] 유저가 루트 url로 접속시에 게시글 리스트 페이지(http://주소:포트/article/list)가 나온다.
 - [x] 리스트 페이지에서는 등록 버튼이 있고 버튼을 누르면 http://주소:포트/article/create 경로로 이동하고 등록 폼이 나온다.
@@ -13,8 +14,18 @@
 
 ## UI/UX (화면 캡처본을 복사 붙여 넣기, url 주소 나오도록)
 - 게시글 리스트 페이지
+
+<img width="364" height="273" alt="스크린샷 2026-04-30 오후 6 07 12" src="https://github.com/user-attachments/assets/8b9e8ef9-5dbf-48b5-b89d-63f5ef28b38f" />
+<img width="364" height="273" alt="스크린샷 2026-04-30 오후 6 08 08" src="https://github.com/user-attachments/assets/1ea80461-122d-4753-89dc-92a75aadedb3" />
 - 게시글 등록 폼 페이지
+<img width="364" height="273" alt="스크린샷 2026-04-30 오후 6 07 39" src="https://github.com/user-attachments/assets/e134148e-d74a-4af8-8caf-7831f9dbbb40" />
 - 게시글 상세 페이지
+<img width="364" height="273" alt="스크린샷 2026-04-30 오후 6 08 38" src="https://github.com/user-attachments/assets/eee6286b-a8ed-4c51-96d5-dfb7bb9702ac" />
+- 게시물 수정 페이지
+<img width="418" height="273" alt="스크린샷 2026-04-30 오후 6 09 55" src="https://github.com/user-attachments/assets/a4c7c3e5-979f-49e5-af24-9e3b8823b6d8" />
+- 없는 게시물 조회 페이지
+<img width="697" height="623" alt="스크린샷 2026-04-30 오후 6 10 43" src="https://github.com/user-attachments/assets/da89a046-22e2-4e69-b7ba-982bc382956c" />
+
 
 ## MVC 패턴
 - ...
